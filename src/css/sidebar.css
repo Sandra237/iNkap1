@@ -1,0 +1,166 @@
+.side-bar {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.one {
+  height: 10%;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: grey;
+}
+
+.one:hover {
+  cursor: pointer;
+  color: #0043ff;
+}
+
+.two {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: grey;
+}
+
+.lin {
+  width: 100%;
+  border: 1px solid #f6f6f6;
+  margin-top: 5px;
+}
+
+.three {
+  height: 6%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: grey;
+}
+
+.user-icon {
+  display: flex;
+  width: 100%;
+  color: #0043ff;
+  align-items: center;
+  justify-content: right;
+  cursor: pointer;
+}
+
+.blue-line {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  align-items: center;
+}
+
+#blue-line {
+  width: 15%;
+  background-color: #0043ff;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  height: 30px;
+}
+
+#blue-line:hover {
+  cursor: pointer;
+}
+
+/*sidebar media query for small screen*/
+@media only screen and (max-width: 600px) {
+  .side-bar {
+    display: flex;
+    background-color: #f1f2f6;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .one {
+    height: 10%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: grey;
+  }
+
+  .one:hover {
+    cursor: pointer;
+    color: #0043ff;
+  }
+
+  .two {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: grey;
+  }
+
+  .lin {
+    width: 100%;
+    border: 1px solid #f6f6f6;
+    margin-top: 5px;
+  }
+
+  .three {
+    height: 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: grey;
+  }
+
+  .user-icon {
+    display: flex;
+    width: 100%;
+    color: #0043ff;
+    align-items: center;
+    justify-content: right;
+    cursor: pointer;
+  }
+
+  .blue-line {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  }
+
+  #blue-line {
+    width: 5px;
+    display: none;
+    background-color: #0043ff;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 30px;
+  }
+}
+
+/*small device (portrait tablets and large phones, 600px and up*/
+@media only screen and (min-width: 600px){
+  .side-bar {
+  display: flex;
+  width: 40px;
+  margin-right: 20px;
+}
+}
